@@ -1,0 +1,21 @@
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #3838FF;
+}
+
+.box:hover {
+    background-color: #00D1AE;
+    width: 200px;
+    height: 200px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+p {
+    max-width: 700px;
+    font-family: Arial;
+}
