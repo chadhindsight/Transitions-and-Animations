@@ -5,7 +5,7 @@
     background-color: #3838FF;
 }
 
-.box:hover {
+.transition {
     background-color: #00D1AE;
     width: 200px;
     height: 200px;
