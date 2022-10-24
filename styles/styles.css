@@ -5,12 +5,16 @@
     background-color: #456789;
 }
 
-#circle {
-    background: #456789;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin: 10px;
+
+
+@keyframes myslidein {
+    0% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
 }
 
 .transition {
@@ -25,4 +29,13 @@
 p {
     max-width: 700px;
     font-family: Arial;
+}
+
+#circle {
+    background: #456789;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    animation: myslidein 2s;
 }
