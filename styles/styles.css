@@ -2,14 +2,14 @@
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #3838FF;
+    background-color: #456789;
 }
 
 #circle {
     background: #456789;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 100px;
+    width: 100px;
     margin: 10px;
 }
 
