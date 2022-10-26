@@ -6,8 +6,8 @@
 }
 
 
-
-@keyframes myslidein {
+/*Make the circle slide in from right to left  */
+@keyframes circleslidein {
     0% {
         margin-left: 100%;
     }
@@ -37,5 +37,5 @@ p {
     height: 100px;
     width: 100px;
     margin: 10px;
-    animation: myslidein 2s;
+    animation: circleslidein 2s;
 }
