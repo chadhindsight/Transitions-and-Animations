@@ -34,8 +34,8 @@ p {
 #circle {
     background: #456789;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 10px;
     animation: circleslidein 2s;
 }
