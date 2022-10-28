@@ -3,6 +3,9 @@
     width: 100px;
     height: 100px;
     background-color: #456789;
+    /* When you apply a border to an element,
+    it modifies the total width of that element. */
+    border-bottom: 1px solid #17212e;
 }
 
 
